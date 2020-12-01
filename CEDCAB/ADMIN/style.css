@@ -1,0 +1,244 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+#header1 {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    float:left;
+    width: 20%; 
+}
+#header1 a{
+    text-decoration: none;
+    color: white; 
+    cursor: pointer; 
+    padding: 8px 27px; 
+    /* display: inline; */
+    display: block;
+ 
+}
+#header1 a:hover{
+  text-decoration: none;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 27px; 
+  color: black; 
+}
+.admin-content{
+  float: left;
+  width:75%;
+}
+.parent {
+  margin-top:10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.admin-span {
+  /* border: 1px solid gray; */
+  border-right:3px solid gray;
+  background-color: white;
+  color: black;
+}
+#logo {
+    font-size: 30px;
+    margin-right: 100px;
+}
+/* location crud operation for ajx and modals */
+  #main{
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    font-size: 19px;
+    margin-top:10px;
+  }
+  #header{
+    background: #b3b1af;
+  
+  }
+  h1{
+    float: left;
+    margin: 15px;
+    color: white;
+  }
+  #search-bar{
+    padding: 10px 20px 0;
+    float: right;
+  }
+  #search-bar label{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+  }
+  #search-bar input{
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid #000;
+  }
+  #search-bar input:focus{
+    outline: 0;
+  }
+  #table-form{
+    background: #55efc4;
+    padding: 20px 10px;
+  }
+  #table-form input[type="text"]{
+    width: 120px;
+    height: 25px;
+    font-size: 18px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid green;
+  }
+  #save-button{
+    background:#2c3e50;
+    color: #fff;
+    border:0;
+    padding: 8px 30px;
+    margin-left: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #table-data{
+    padding: 15px;
+    height: 500px;
+    vertical-align: top;
+  }
+  #approved_table-data{
+    padding: 15px;
+    height: 500px;
+    vertical-align: top;
+  }
+  #table-data th{
+    background: #74b9ff;
+  }
+  #approved_table-data th{
+    background: #74b9ff;
+  }
+  #table-data tr:nth-child(odd){
+    background: #ecf0f1;
+  }
+  #success-message{
+    background: #DEF1D8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  #error-message{
+    background: #EFDCDD;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position:absolute;
+    right: 15px;
+    top: 15px;
+  }
+  .delete-btn{
+    background:#e74c3c;
+    color: #fff;
+    border:0;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .edit-btn{
+    background: #27ae60;
+    color: white;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #modal{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+  }
+  #modal-form{
+    background: #fff;
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: calc(50% - 15%);
+    padding: 15px;
+    border-radius: 4px;
+  }
+  #modal-form h2{
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+  }
+  #modal-form input[type = "text"]{
+    width: 100%;
+  }
+  #close-btn{
+    background: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+  }
+  
+  .top-foot {
+      padding: 20px;
+      color: white;
+      background-color: gray;
+      font-size: 30px;
+      text-align: center;
+  }
+  .signuptable {
+      padding: 10px;
+      margin: 170px;
+  }
+  .login-register {
+      border: 2px solid gray;
+      padding: 10px;
+      border-collapse: collapse;
+      font-size: 20px;    
+  }
+  .login-register td{
+      padding: 7px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+  }
+  .login-register input {
+      font-size: 20px;
+  }
+  .info {
+    font-size: 20px;
+    background: #000;
+    color:gray;
+    padding: 5px;
+  }
+  .login_info {
+    margin-top:30px;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+  }
+
+  

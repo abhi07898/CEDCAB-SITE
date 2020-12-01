@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main {
+    padding: 10px;
+    width: 100%;
+}
+.back-img {
+    background-image: url(cab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    /* height : 650px; */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.head-content {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 30px;
+  /* background-color: red; */
+  text-shadow: 0 0 3px #FF0000, 0 0 5px black;    
+}
+.mini-head-content {
+    text-align: center;
+    color: white;
+    background-color:white;
+    color: black;
+    margin: 15px;
+    box-shadow: 15px white 10px 5px black;
+  
+}
+.form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 15px 20px 15px black;
+    margin-bottom: 30px;
+}  
+.formm {
+    background-color: white;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 5px 15px 20px 15px black;
+    margin-bottom: 30px;
+} 
+.city-taxi {
+    
+    font-size: 20px;    
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 80px;;
+}
+.city-taxi span{
+    font-size: 20px;    
+    text-align: center;
+    background-color: rgb(252, 151, 0);
+    padding: 5px 10px;
+    border-radius: 50px;
+   
+}
+.form-content {
+    text-align: center;
+}
+ td{
+    padding: 10px;
+}
+
+option:first {
+    color: #999;
+}
+tr {
+    margin-bottom: 10px;
+}
+.submit {
+    padding: 5px 80px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 50px;
+    color: black;
+    font-weight: 10;
+}
+.submitt {
+    
+    background-color: rgb(177, 97, 6);
+    border-radius: 50px;
+    color: black;
+    font-weight: 10;
+    font-weight:1000px;
+}
+.submitt:hover {
+    
+    background-color: rgb(240, 6, 6);
+    color: black;
+    font-weight: 10;
+}
+select {
+    -webkit-appearance:none;
+}
+.result-field {
+    /* box-shadow: 5px 10px 15px 10px black;  */
+}
+.btn-design {
+    background-color: rgb(255, 153, 0);
+    color: black;
+}
+.span-1 {
+    font-size: 40px;
+    color: rgb(238, 132, 11); 
+    text-shadow: 0 0 3px #cf9a08, 0 0 5px black;  
+}
+.span-2 {
+    font-size: 30px;
+    color: rgb(235, 40, 5);   
+    text-shadow: 0 0 3px #292928, 0 0 5px black;
+}
+footer {
+    width: 100%;
+}
+.content_rides_div {
+    background-color: gray;
+    color: white;   
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+ /* iPad portrait style here */
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation:landscape) 
+{
+   
+}
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation:portrait) 
+{
+    .form {
+        background-color: white;
+        padding: 20px;
+        box-shadow: 5px 15px 20px 15px black;
+        margin-bottom: 30px;
+        width: 100%;
+    }  
+    .formm {
+        background-color: white;
+        padding-top: 20px ;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-shadow: 5px 15px 20px 15px black;
+        margin-bottom: 30px;
+    } 
+}
+/* @media(max-width: 480px) {
+    .form {
+ 
+        background-color: white;
+        padding: 20px;
+        box-shadow: 15px 20px 15px black;
+        width:100%;
+    }
+    td{
+        padding: 5px;
+
+    }
+
+  } */
